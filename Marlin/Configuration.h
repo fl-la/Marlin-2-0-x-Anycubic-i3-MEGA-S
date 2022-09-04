@@ -584,7 +584,7 @@
 #if ENABLED(KNUTWURST_4MAXP2)
   #define TEMP_SENSOR_0 11
 #else
-  #define TEMP_SENSOR_0 1
+  #define TEMP_SENSOR_0 5
 #endif
 #define TEMP_SENSOR_1 0
 #define TEMP_SENSOR_2 0
@@ -1109,7 +1109,7 @@
 #endif
 
 #if ENABLED(KNUTWURST_MEGA_X)
-  #define DEFAULT_AXIS_STEPS_PER_UNIT    { 80, 80, 800, 400 }
+  #define DEFAULT_AXIS_STEPS_PER_UNIT    { 80, 80, 800, 397 }
 #endif
 
 #if ENABLED(KNUTWURST_MEGA_P)
