@@ -1920,12 +1920,12 @@
 
 #if ENABLED(KNUTWURST_MEGA_X)
   #define X_MIN_POS 0
-  #define Y_MIN_POS 0
-  #define Z_MIN_POS 0
-  #define X_BED_SIZE 310
+  #define Y_MIN_POS -5
+  #define Z_MIN_POS -1
+  #define X_BED_SIZE 292
   #define Y_BED_SIZE 310
-  #define Z_MAX_POS 305
-  #define X_MAX_POS X_BED_SIZE
+  #define Z_MAX_POS 302
+  #define X_MAX_POS 292
   #define Y_MAX_POS Y_BED_SIZE
 #endif
 
